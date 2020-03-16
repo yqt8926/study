@@ -12,4 +12,5 @@ public class GenericMethodDemo01 {
         System.out.println(e.toString());
 
     }
+
 }
