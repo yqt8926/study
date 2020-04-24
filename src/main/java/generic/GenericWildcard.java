@@ -13,15 +13,15 @@ public class GenericWildcard {
      * 3、从根本上来说，泛型是一种形参，而通配符是一种实参。
      */
 
-    public static void testGenericWildcard (Generic<?> key){
-
-    }
+//    public static void testGenericWildcard (Generic<?> key){
+//
+//    }
 
     public static void main(String[] args) {
-        Generic<Number> numberGeneric = new Generic<Number>(123);
-        Generic<Integer> integerGeneric = new Generic<Integer>(234);
-
-        testGenericWildcard(numberGeneric);
-        testGenericWildcard(integerGeneric);
+//        Generic<Number> numberGeneric = new Generic<Number>(123);
+//        Generic<Integer> integerGeneric = new Generic<Integer>(234);
+//
+//        testGenericWildcard(numberGeneric);
+//        testGenericWildcard(integerGeneric);
     }
 }
