@@ -1,7 +1,5 @@
 package generic.method;
 
-import generic.Generic;
-
 /**
  * @description: 泛型方法学习
  * @packagename: generic.method
