@@ -9,5 +9,9 @@
         <module name="study" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-primay" target="1.8" />
+      <module name="di-xml" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
