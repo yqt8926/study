@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="myStudent" class="org.example.Student">-->
+<!--        <property name="name" value="张三"></property>-->
+<!--        <property name="age" value="18"></property>-->
+<!--        <property name="school" ref="mySchool"/>-->
+<!--    </bean>-->
+    <bean id="myStudent" class="org.example.Student">
+        <constructor-arg  name="age" value="18"></constructor-arg>
+        <constructor-arg name="name"  value="李四"></constructor-arg>
+        <constructor-arg name="school" ref="mySchool"></constructor-arg>
+    </bean>
+    <bean id="mySchool" class="org.example.School">
+        <property name="name" value="北京海淀附属中学"></property>
+        <property name="address" value="北京市海淀区"></property>
+    </bean>
+    <bean id="myDate" class="java.util.Date">
+        <property name="time" value="1547646700353"></property>
+    </bean>
+    <bean name="myFile" class="java.io.File">
+        <constructor-arg  value="/Users/bjsttlp125/Downloads/ibAllocationTemplate_20250605061941.xlsx"></constructor-arg>
+        <constructor-arg value="pom.xml"></constructor-arg>
+    </bean>
+
+    <bean id="mySchool4" class="org.example.ba4.School">
+        <property name="name" value="北京海淀中学"></property>
+        <property name="address" value="北京市海淀区"></property>
+    </bean>
+<!--    <bean id="myStudent4" class="org.example.ba4.Student" autowire="byName">-->
+<!--        <constructor-arg name="student" ref="myStudent"></constructor-arg>-->
+<!--    </bean>-->
+</beans>

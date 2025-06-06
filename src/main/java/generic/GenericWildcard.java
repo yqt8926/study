@@ -1,4 +1,4 @@
-package generic;
+package main.java.generic;
 
 /**
  * @description: 泛型通配符测试

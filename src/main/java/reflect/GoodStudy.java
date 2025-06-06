@@ -1,4 +1,4 @@
-package reflect;
+package main.java.reflect;
 
 /**
  * @description: 好学生类

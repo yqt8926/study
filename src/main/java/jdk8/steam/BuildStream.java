@@ -1,4 +1,4 @@
-package jdk8.steam;
+package main.java.jdk8.steam;
 
 import java.util.*;
 import java.util.stream.Stream;

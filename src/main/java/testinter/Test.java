@@ -1,4 +1,4 @@
-package testinter;
+package main.java.testinter;
 
 /**
  * @author yuanqingtao

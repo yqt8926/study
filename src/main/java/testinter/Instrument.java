@@ -1,4 +1,4 @@
-package testinter;
+package main.java.testinter;
 /**
  * @description: 接口不可实例化
  * @packagename: testinter

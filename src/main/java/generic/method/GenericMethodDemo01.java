@@ -1,4 +1,4 @@
-package generic.method;
+package main.java.generic.method;
 
 /**
  * @description: 泛型方法测试2

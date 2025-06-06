@@ -6,6 +6,10 @@
 
     <groupId>org.example</groupId>
     <artifactId>study</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-01</module>
+    </modules>
     <dependencies>
 <!--        <dependency>-->
 <!--            <groupId>org.junit.jupiter</groupId>-->

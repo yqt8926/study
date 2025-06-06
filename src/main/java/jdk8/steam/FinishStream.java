@@ -1,4 +1,4 @@
-package jdk8.steam;
+package main.java.jdk8.steam;
 
 import java.util.Arrays;
 import java.util.List;

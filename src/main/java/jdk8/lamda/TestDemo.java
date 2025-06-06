@@ -1,4 +1,4 @@
-package jdk8.lamda;
+package main.java.jdk8.lamda;
 
 /**
  * @description: lamda测试

@@ -1,4 +1,4 @@
-package designpattern.Composite;
+package main.java.Composite;
 
 /**
  * @description: app
