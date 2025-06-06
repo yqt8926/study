@@ -1,2 +1,13 @@
 # Project exclude paths
 /target/
+/di-xml/target/classes/org/example/App.class
+/di-xml/target/classes/applicationContext.xml
+/di-xml/target/classes/applicationContext2.xml
+/di-xml/target/test-classes/org/example/AppTest.class
+/di-xml/target/classes/dao.xml
+/di-xml/target/classes/org/example/ba4/School.class
+/di-xml/target/classes/org/example/School.class
+/di-xml/target/classes/services.xml
+/di-xml/target/classes/org/example/ba4/Student.class
+/di-xml/target/classes/org/example/Student.class
+/di-xml/target/test-classes/org/example/StudentTest.class
