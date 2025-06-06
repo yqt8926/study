@@ -9,4 +9,5 @@ package main.java.jdk8.lamda;
 @FunctionalInterface
 public interface IMessage {
     void print(String info);
+
 }
